@@ -1,4 +1,4 @@
-<!--  versió 1:  SENZILLA -->
+﻿<!--  versió 1:  SENZILLA -->
 <html>
 <body>
 <?php
@@ -12,7 +12,7 @@ if (isset( $_POST['submit'] ) ) {
 <?php  } else { ?>
 
   <form action="form_versio1.php" method="post">
-  Name:   <input type="text"   name="nom"><br>
+  Nom :   <input type="text"   name="nom"><br>
   E-mail: <input type="text"   name="email"><br>
           <input type="submit" name="submit" value="Enviar">
   </form>
