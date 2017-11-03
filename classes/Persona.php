@@ -11,7 +11,7 @@ class Persona
     $this->dni = $dni;
   }
 
-  private function getDni() {
+  function getDni() {
       return $this->dni;
   }
 
@@ -34,7 +34,7 @@ class Persona
 		$this->age = $newAge;
 	}
 
-  final function describe_Person() {
+  function describe_Person() {
     return $this->getName().",".$this->getDni().",".$this->getAge();
   }
 }
