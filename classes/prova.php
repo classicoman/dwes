@@ -8,9 +8,8 @@ $home = new Persona("Tomeu", 25, "43000123Z");
 ###   (1) BASIC
 ###############
 
-//echo $toni->getDni();
-//echo "En " . $toni->getName() . " te " . $toni->getAge() . " anys";
-
+echo $home->getDni() . "<br>";
+echo "En " . $home->getName() . " te " . $home->getAge() . " anys" . "<br>";
 echo "<p>". $home->describe_Person() . "</p>";
 
 
