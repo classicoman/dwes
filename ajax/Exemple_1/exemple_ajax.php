@@ -7,7 +7,6 @@
    * Executa AJAX en el servidor
    */
   function mostra_amb_ajax() {
-          //Código Ajax
           /* Una XML HTTP Request permet executar codi en el servidor
           * sense recarregar la pàgina web. És el que es coneix com a "AJAX" */
           var xmlhttp = new XMLHttpRequest();
@@ -29,7 +28,7 @@
   <p>En espitjar el boto, mostra el contingut del fitxer <i>texto.php</i></p>
   <input type="button" value="Pulsar" onclick="mostra_amb_ajax()">
   <div id="zona_ajax">
-      En executar-se AJAX, aquest text serà substituït pel resultat.
+      <i>El resultat de AJAX es mostrarà aquí</i>
   </div>
   <body>
 </html>
