@@ -1,5 +1,5 @@
 <?php
 
-echo "Hola Ajax!";
+echo "<h1>Hola Ajax!</h1>";
 
  ?>
